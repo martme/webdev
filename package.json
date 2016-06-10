@@ -1,0 +1,13 @@
+{
+  "name": "html5intro",
+  "version": "1.0.0",
+  "description": "Tips and tricks in HTML5",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Martin Kirkholt Melhus",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
