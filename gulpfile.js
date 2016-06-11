@@ -19,9 +19,9 @@ gulp.task('sass', function() {
 
 gulp.task('js', function() {
     gulp.src(jsSources)
-    .pipe(uglify())
-    .pipe(concat('script.js'))
-    .pipe(gulp.dest('www/scripts'))
+    //.pipe(uglify())
+    //.pipe(concat('script.js'))
+    //.pipe(gulp.dest('www/scripts'))
     .pipe(connect.reload())
 });
 

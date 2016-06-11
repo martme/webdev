@@ -1,0 +1,24 @@
+@import "style.scss";
+
+.awsm-50 {
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+}
+
+.awsm-list {
+    li {
+        margin-bottom: 0.5em;
+    }
+}
+
+.awsm-btn {
+    border-radius: 0;
+    border-width: 0;
+}
+
+.awsm-form-control {
+    border-radius: 0;
+    border-width: 0;
+    border-left: 0.5em solid #555;
+    box-shadow: none;
+}

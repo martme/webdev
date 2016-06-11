@@ -8,35 +8,34 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.spoiler.css">
 </head>
 <body>
 <div class="container">
     <header>
-        <h1>
-            Examples
-            <a class="pull-right" href="spoiler.html">
-                <i class="glyphicon glyphicon-education"></i>
+        <h1 class="text-xs-center">
+            Spoilers
+            <a class="pull-right" href="/">
+                <i class="glyphicon glyphicon-pencil"></i>
             </a>
         </h1>
-
     </header>
 
     <main>
         <section class="awsm-example">
-            <div class="alert alert-warning">
+            <div class="alert alert-success">
                 <strong>Example 1:</strong>
                 I &lt3 my bootstrap with them flat&trade; buttons
             </div>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled awsm-list">
                 <li>
-                    <button type="button" class="btn btn-primary">
+                    <button type="button" class="btn awsm-btn btn-primary">
                         <i class="glyphicon glyphicon-hand-down"></i>
                         I'm a button
                     </button>
                 </li>
                 <li>
-                    <a href="#" class="btn btn-info">
+                    <a href="#" class="btn awsm-btn btn-info">
                         <i class="glyphicon glyphicon-hand-right"></i>
                         I'm a link
                     </a>
@@ -46,30 +45,31 @@
 
 
         <section class="awsm-example">
-            <div class="alert alert-warning">
+            <div class="alert alert-success">
                 <strong>Example 2:</strong>
                 I &lt3 my bootstrap with them flat&trade; inputs
             </div>
             <label for="something">Something</label>
-            <input type="search" class="form-control"
+            <input type="search" class="form-control awsm-form-control "
                 id="something" name="something" placeholder="Search for something ...">
         </section>
 
         <section class="awsm-example">
-            <div class="alert alert-warning">
+            <div class="alert alert-success">
                 <strong>Example 3:</strong>
                 <code>float: left; => %$?!</code>.
             </div>
             <div class="pull-left awsm-50">
-                <span class="awsm-nowrap">
-                    I also require 50% of the width
+                <span class="awsm-nowrap" data-autofit>
+                    I require 50% of the width
                 </span>
             </div>
             <div class="pull-left awsm-50">
-                <span class="awsm-nowrap">
+                <span class="awsm-nowrap" data-autofit>
                     I also require 50% of the width
                 </span>
             </div>
+            <div class="clearfix"></div>
         </section>
     </main>
 
@@ -80,7 +80,7 @@
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-<script src="scripts/awsm.js"></script>
+<script src="scripts/awsm.spoiler.js"></script>
 
 </body>
 </html>

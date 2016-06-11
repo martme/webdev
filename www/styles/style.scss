@@ -9,41 +9,17 @@
     }
 }
 
-.awsm-autofit {
+.awsm-nowrap {
     white-space: nowrap;
 }
 
 .awsm-50 {
     box-sizing: content-box;
     width: 50%;
-    background-color: #555;
-    color: rgb(144, 238, 144);
-    //padding: 0.5em 1em;
+    border: 2px solid #555;
 }
 
 
 footer {
     margin-top: 4em;
-}
-
-
-
-// awsm examples
-.awsm-list {
-    li {
-        margin-bottom: 0.5em;
-    }
-}
-
-.awsm-btn {
-    // TODO:
-    border-radius: 0;
-    border-width: 0;
-}
-
-.awsm-form-control {
-    border-radius: 0;
-    border-width: 0;
-    border-left: 0.5em solid #555;
-    box-shadow: none;
 }
