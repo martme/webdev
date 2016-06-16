@@ -47,4 +47,4 @@ describe('Quirks', function () {
             func().should.equal(2);
         })
     });
-})
+});
