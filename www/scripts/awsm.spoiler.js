@@ -31,4 +31,12 @@ var awsm = new (function () {
             }, 100);
         });
     });
+
+
+    // example 4
+    $("button[data-awsm-message]").click(function () {
+        var message = $(this).attr("data-awsm-message");
+        $("#ex4-output").text(message);
+    });
+
 })();

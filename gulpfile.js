@@ -1,9 +1,7 @@
 var gulp = require('gulp'),
 gutil = require('gulp-util'),
 sass = require('gulp-sass'),
-connect = require('gulp-connect'),
-uglify = require('gulp-uglify'),
-concat = require('gulp-concat');
+connect = require('gulp-connect');
 
 var jsSources = ['www/scripts/*.js'],
     sassSources = ['www/styles/*.scss'],
@@ -19,9 +17,6 @@ gulp.task('sass', function() {
 
 gulp.task('js', function() {
     gulp.src(jsSources)
-    //.pipe(uglify())
-    //.pipe(concat('script.js'))
-    //.pipe(gulp.dest('www/scripts'))
     .pipe(connect.reload())
 });
 

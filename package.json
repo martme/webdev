@@ -9,5 +9,10 @@
   "author": "Martin Kirkholt Melhus",
   "license": "ISC",
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-util": "^3.0.7",
+    "should": "^9.0.2"
   }
 }
